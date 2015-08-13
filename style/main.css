@@ -96,11 +96,14 @@ p.first {
 /*	padding-bottom: 2em;*/
 }
 .logo {
-	margin-bottom: 1em;
+	/*margin-bottom: 1em;*/
 }
 .name {
 	margin-top: 1ex;
 	font-size: small;
+}
+.logo .name {
+	color: transparent;
 }
 .logo:hover .name {
 	color: gold;
