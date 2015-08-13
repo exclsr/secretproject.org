@@ -98,6 +98,14 @@ p.first {
 .logo {
 	margin-bottom: 1em;
 }
+.name {
+	margin-top: 1ex;
+	font-size: small;
+}
+.logo:hover .name {
+	color: gold;
+}
+
 .rain-wrapper {
 	margin-top: 1.75em;
 	margin-left: -2ex;
