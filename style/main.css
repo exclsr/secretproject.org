@@ -103,12 +103,20 @@ p.first {
 	margin-left: -2ex;
 }
 
-.mission {
+.mission, .mission p, .mission div {
 	font-size: 14pt;
 	line-height: 20pt;
 }
 
-.made-in-oregon {
+.oregon {
+	margin-top: 1.75em;
+	margin-bottom: 1ex;
+}
+.oregon-wrapper {
+	text-align: right;
+}
+
+.holmwell {
 	margin-top: 0.5em;
 	font-size: small;
 	margin-bottom: 1em;
