@@ -7,8 +7,11 @@ body, .footer {
 }
 
 .container {
-	padding-top: 2em;
 	background: #190720;
+}
+
+.header {
+	margin-top: 1.5em;
 }
 
 h1 {
@@ -17,6 +20,7 @@ h1 {
 	font-weight: normal;
 
 	text-align: center;
+	margin-top: 0.7em;
 }
 
 p, div {
@@ -38,7 +42,7 @@ a:hover {
 }
 
 .content {
-	padding-top: 2.1em;
+	padding-top: 1.4em;
 }
 .content p {
 
@@ -77,7 +81,7 @@ a:hover {
 	background-color: #090309;
 	padding-bottom: 1.5em;
 }
-.supporting .first {
+p.first {
 	margin-top: 1.25em;
 }
 .supporting h2 {
