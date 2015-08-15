@@ -92,10 +92,14 @@ p.first {
 }
 
 .community-logos {
-	margin-top: 2.25em;
+	margin-top: 1.25em;
 /*	padding-bottom: 2em;*/
 }
+h2.after-community-logos {
+    margin-top: 1.25em;
+}
 .logo {
+    margin-top: 1em;
 	/*margin-bottom: 1em;*/
 }
 .name {
