@@ -139,3 +139,22 @@ h2.after-community-logos {
 .footer {
 	padding-bottom: 2em;
 }
+
+/* Smaller font sizes on mobile devices */
+@media (max-width: 667px) {
+    h1 {
+        font-size: 28pt;
+    }
+    h2 {
+        font-size: 22pt;
+    }
+    p, div {
+        font-size: 14pt;
+        line-height: 20pt;
+    }
+
+    .mission, .mission p, .mission div {
+        font-size: 12pt;
+        line-height: 18pt;
+    }
+}
