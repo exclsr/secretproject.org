@@ -4,15 +4,23 @@
 body, .footer {
 	color: #eee;
 	background: #080009;
+	background: #00394C;
 }
 
 .container {
 	background: #190720;
+	background: #006688;
 }
 
 .header {
-	margin-top: 1.5em;
-	padding-bottom: 1.75em;
+
+}
+
+.circle {
+	fill: black;
+}
+#logo-svg {
+	width: 100%;
 }
 
 h1 {
@@ -55,6 +63,7 @@ a:hover {
 
 .making {
 	background-color: #130414;
+	background-color: #005F7F;
 }
 
 /* video */
@@ -80,6 +89,7 @@ a:hover {
 
 .supporting {
 	background-color: #090309;
+	background-color: #00445B;
 	padding-bottom: 1.5em;
 }
 p.first {
@@ -97,10 +107,10 @@ p.first {
 /*	padding-bottom: 2em;*/
 }
 h2.after-community-logos {
-    margin-top: 1.25em;
+	margin-top: 1.25em;
 }
 .logo {
-    margin-top: 1em;
+	margin-top: 1em;
 	/*margin-bottom: 1em;*/
 }
 .name {
@@ -143,19 +153,19 @@ h2.after-community-logos {
 
 /* Smaller font sizes on mobile devices */
 @media (max-width: 667px) {
-    h1 {
-        font-size: 28pt;
-    }
-    h2 {
-        font-size: 22pt;
-    }
-    p, div {
-        font-size: 14pt;
-        line-height: 20pt;
-    }
+	h1 {
+		font-size: 28pt;
+	}
+	h2 {
+		font-size: 22pt;
+	}
+	p, div {
+		font-size: 14pt;
+		line-height: 20pt;
+	}
 
-    .mission, .mission p, .mission div {
-        font-size: 12pt;
-        line-height: 18pt;
-    }
+	.mission, .mission p, .mission div {
+		font-size: 12pt;
+		line-height: 18pt;
+	}
 }
